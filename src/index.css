@@ -1,0 +1,36 @@
+body {
+  background-color: rgba(0, 0, 0, 0.048);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#chart{
+  float:right;
+  margin-right: 10px;
+}
+
+#botao {
+  border: none;
+  padding: 1rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 27rem;
+  margin-left: 5rem;
+  background-color: #555555;
+  color: white;
+  border-radius: 13px;
+}
+
+
