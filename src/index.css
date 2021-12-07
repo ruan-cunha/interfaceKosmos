@@ -15,10 +15,22 @@ code {
 }
 
 #chart{
-  float:right;
-  margin-right: 10px;
+  width: 90% !important;
+  height: auto !important;
 }
 
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
 #botao {
   border: none;
   padding: 1rem 1rem;
