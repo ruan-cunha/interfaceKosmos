@@ -14,52 +14,7 @@ function Home() {
 
   return (
     <main>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          const launchRef = db.ref("launch1");
-          const newLaunchRef = launchRef.push();
-          newLaunchRef.set({
-            time,
-            temp,
-            altitude,
-            yaw,
-          });
-          
-        }}
-      >
-        <h1>Inserir dados</h1>
-        
-        <input
-          placeholder="Tempo"
-          type="number"
-          value={time}
-          onChange={(e) => setTime(e.target.value)}
-        />
-
-        <input
-          placeholder="Temperatura"
-          type="number"
-          value={temp}
-          onChange={(e) => setTemp(e.target.value)}
-        />
-
-        <input
-          placeholder="Altitude"
-          type="number"
-          value={altitude}
-          onChange={(e) => setAltitude(e.target.value)}
-        />
-
-        <input
-          placeholder="Yaw"
-          type="number"
-          value={yaw}
-          onChange={(e) => setYaw(e.target.value)}
-        />
-
-        <button type="submit">Confirmar</button>
-      </form>
+      
     </main>
   );
 
